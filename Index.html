@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DesignAgency</title>
+</head>
+<body>
+
+    <div class="menu_container">
+        <nav class="navigation">
+            <ul class="brand">
+                <li><span class="headingOne">Design</span><span class="headingTwo">AGENCY</span></li>
+            </ul>
+            <ul class="menus">
+                <li onclick="toggleDiv()">Service <img class="downWard" src="Assets/downward.png" alt=""></li>
+                    <div class="listsDiv">
+                        <div class="levels hidden" id="div">
+                            <div class="level" onclick="sub()">Level 1 item 1 <img class="forward" src="Assets/forwardG.png" alt=""> </div>
+                        
+                            <div class="level">Level 1 item 2</div>
+                        </div>
+                        <div class="levels subContent hidden" id="sub">
+                            <div class="level" >Level 1 item 1</div>
+                        
+                            <div class="level">Level 1 item 2</div>
+                            <div class="level">Level 1 item 2</div>
+                            <div class="level">Level 1 item 2</div>
+                        </div>
+                    </div>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li><button class="menus_login">Login</button></li>
+                <li><button class="menus_register">Register</button></li>
+            </ul>
+        </nav>
+        <menu class="menu_contents">
+            <div class="menu_contents_left">
+                <div class="menuText">
+                    <h1>Increase Your  <br> Customers Loyalty <br> And Satisfaction </h1>
+                    <p>We help business like yours earn more customers, standout from competitors, make more money</p>
+                
+                <button class="menu_contents_left_button">Get Started</button>
+            </div>
+            </div>
+            <div class="menu_contents_right">
+                <img class="brandImage" src="Assets/brand.png"  alt="">
+            </div>
+        </menu>
+        <div class="sponsors">
+            
+                <div class="logos"><img src="Assets/logos_google.png" alt="" srcset=""></div>
+                <div class="logos"><img src="Assets/Trello-logo-blue 1.png" alt="" srcset=""></div>
+                <div class="logos"><img src="Assets/logos_monday.png" alt="" srcset=""></div>
+                <div class="logos"><img src="Assets/Notion.png" alt="" srcset=""></div>
+                <div class="logos"><img src="Assets/Slack.png" alt="" srcset=""></div>
+            
+        </div>
+    </div>
+
+    <!-- section one -->
+
+    <div class="sectionOne">
+        <div class="sectionOneText">
+            <h2 class="portfolio">what we do</h2>
+            <p class="subPara">We providing the perfect solution to your business growth</p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="Assets/Activity.png" class="cardImage" alt="">
+                <div class="cardTexts">
+                    <h2>Grow Your Business</h2>
+                    <p>We helps identify he best ways to inprove your business</p>
+                </div>
+                <button>Learn More &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg></button>
+            </div>
+            <div class="card">
+                <img src="Assets/Heart.png" class="cardImage" alt="">
+                <div class="cardTexts">
+                    <h2>Grow Your Business</h2>
+                    <p>We helps identify he best ways to inprove your business</p>
+                </div>
+                <button>Learn More &nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg></button>
+            </div>
+            <div class="card">
+                <img src="Assets/Work.png" class="cardImage" alt="">
+                <div class="cardTexts">
+                    <h2>Grow Your Business</h2>
+                    <p>We helps identify he best ways to inprove your business</p>
+                </div>
+                <button>Learn More &nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- end section one -->
+
+
+    <!-- section two -->
+
+    <div class="sectionTwo">
+        <div class="reports">
+            <div class="reportCard">
+                <img src="Assets/project-plan.png" alt="" srcset="">
+                <p>Completed projects</p>
+                <div><span class="project"></span>+</div>
+
+            </div>
+            <div class="vl"></div>
+            <div class="reportCard">
+                <img src="Assets/rating (1).png" alt="" srcset="">
+                <p> Customer Satisfaction</p>
+                <div> <span class="customerSatisfaction"></span></div>
+            </div>
+            <div class="vl"></div>
+            <div class="reportCard">
+                <img src="Assets/raise.png" alt="" srcset="">
+                <p>Raised by Clients</p>
+                <div><span class="clients"></span></div>
+            </div>
+            <div class="vl"></div>
+            <div class="reportCard">
+                <img src="Assets/timeline 1.png" alt="" srcset="">
+                <p>Years in Business</p>
+                <div><span class="years"></span></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end section two -->
+
+
+    <!-- section three -->
+
+    <div class="sectionThree">
+        <div class="sectionThreeTexts">
+            <h2 class="portfolio">our portfolio</h2>
+            <p class="subPara">We provide the perfect solution to your business growth</p>
+        </div>
+        <div class="sectionThreeArticles">
+            <div class="article">
+                <div class="articleContent">
+                    <img src="Assets/Screenshot 2022-05-06 at 10.35.png" height="340" alt="">
+                    <div class="articleText">
+                        <h2>Digital Marketing Agency Website</h2>
+                        <p>This is a website for a client who want to achieve their goals and meet their users needs while also increasing their reach. Accross all platforms. This is a website rebrand</p>
+                    </div>
+                </div>
+                <div class="articleContent">
+                    <img src="Assets/Screenshot 2022-05-14 at 11.17.png" height="520" alt="">
+                    <div class="articleText">
+                        <h2>Digital Marketing Agency Website</h2>
+                        <p>This is a website for a client who want to achieve their goals and meet their users needs while also increasing their reach. Accross all platforms. This is a website rebrand</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="article">
+                <div class="articleContent">
+                    <img src="Assets/Screenshot 2022-05-14 at 11.15.png" height="520" alt="">
+                    <div class="articleText">
+                        <h2 class="articleTitle">Digital Marketing Agency Website</h2>
+                        <p>This is a website for a client who want to achieve their goals and meet their users needs while also increasing their reach. Accross all platforms. This is a website rebrand</p>
+                    </div>
+
+                </div>
+                <div class="articleContent">
+                    <img src="Assets/Screenshot 2022-05-06 at 10.33.40 PM 6.26.png" height="340" alt="">
+                    <div class="articleText">
+                        <h2>Digital Marketing Agency Website</h2>
+                        <p>This is a website for a client who want to achieve their goals and meet their users needs while also increasing their reach. Accross all platforms. This is a website rebrand</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            
+            
+            
+        </div>
+    </div>
+
+
+
+    <!-- end section three -->
+
+
+
+    <!-- section four -->
+
+    <div class="sectionThree">
+        <div class="sectionFourHead">
+            <div class="sectionFourTexts">
+                <h2 class="portfolio">testimonials</h2>
+                <p class="subPara">See What Our Customer <br> Say About Us</p>
+            </div>
+            <div class="arrowButtons">
+                <div class="arrow backwardArrow">
+                    <img src="Assets/Vector.png" alt="">
+                </div>
+                <div class="arrow forwardArrow">
+                    <img src="Assets/forward.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- customer reviews -->
+
+        <div class="reviewCards">
+            <div class="singleCardsForReview">
+                <div class="comments">
+                    <p>
+                        Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service
+                    </p>
+                </div>
+                <!-- reviewer details -->
+                <div class="reviewerDetails">
+                    <div class="profilePicture">
+                        <img src="Assets/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction-removebg 1.png" alt="">        
+                    </div>
+                    <div class="reviewerName">
+                        <h2>Emily Stone</h2>
+                        <p>CEO, Marketing Guru</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="singleCardsForReview">
+                <div class="comments">
+                    <p>
+                        Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service
+                    </p>
+                </div>
+                <!-- reviewer details -->
+                <div class="reviewerDetails">
+                    <div class="profilePicture">
+                        <img src="Assets/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction-removebg 1.png" alt="">        
+                    </div>
+                    <div class="reviewerName">
+                        <h2>Emily Stone</h2>
+                        <p>CEO, Marketing Guru</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="singleCardsForReview">
+                <div class="comments">
+                    <p>
+                        Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service
+                    </p>
+                </div>
+                <!-- reviewer details -->
+                <div class="reviewerDetails">
+                    <div class="profilePicture">
+                        <img src="Assets/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction-removebg 1.png" alt="">        
+                    </div>
+                    <div class="reviewerName">
+                        <h2>Emily Stone</h2>
+                        <p>CEO, Marketing Guru</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="singleCardsForReview">
+                <div class="comments">
+                    <p>
+                        Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service
+                    </p>
+                </div>
+                <!-- reviewer details -->
+                <div class="reviewerDetails">
+                    <div class="profilePicture">
+                        <img src="Assets/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction-removebg 1.png" alt="">        
+                    </div>
+                    <div class="reviewerName">
+                        <h2>Emily Stone</h2>
+                        <p>CEO, Marketing Guru</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- end section four -->
+
+
+    <!-- section five -->
+
+    <div class="sectionFive">
+        <div class="subscribtionSection">
+            <h2 class="portfolio">subscribe</h2>
+            <p class="subPara">Subscribe to get the latest <br> news about us</p>
+            <p class="subscriptionContent">Please drop your email below to get daily update about what we do</p>
+
+            <div class="subscriptionForm">
+               
+                    <div class="inputField">
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                    <div class="btnField">
+                        <button type="submit">Subscribe</button>
+                    </div>
+             
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end section five -->
+
+
+
+    <!-- footer -->
+
+
+    <footer>
+
+        <div class="webLogo">
+            <h1>WEB LOGO</h1>
+            <p>Some footer text about the <br> Agency. Just a little description to <br> help people understand you better</p>
+            <div class="socialMedia">
+                <ul class="menus">
+                    <li > <div class="socialIcons"> <img src="Assets/Vector copy.png" alt=""></div></li>
+                    <li > <div class="socialIcons"> <img src="Assets/Vector-2.png" alt=""></div></li>
+                    <li > <div class="socialIcons"> <img src="Assets/Vector-3.png" alt=""></div></li>
+                    <li > <div class="socialIcons"> <img src="Assets/Vector-4.png" alt=""></div></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Copyright Design Agency 2022</p>
+            </div>
+        </div>
+        <div class="quickLinks">
+
+            <h2 class="footerSubHeading">Quick Links </h2>
+            <div class="links">
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+        </div>
+        <div class="address">
+            <h2 class="footerSubHeading">Address </h2>
+
+            <p>
+                Design Agency Head Office. <br>
+                Airport Road <br>
+                United Arab Emirate
+            </p>
+        </div>
+
+    </footer>
+
+
+
+    <!-- end of footer -->
+</body>
+</html>
+<script>
+    function toggleDiv() {
+  var div = document.getElementById("div");
+  div.classList.toggle("hidden");
+}
+function sub() {
+  var div = document.getElementById("sub");
+  div.classList.toggle("hidden");
+}
+
+</script>
