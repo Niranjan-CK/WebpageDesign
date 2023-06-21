@@ -329,12 +329,12 @@ margin: 10px 20px;
     color: #000000;
 }
 .articleText p{
-    margin-top: 14px;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
+    margin-top: 20px;
+    font-family: 'Avenir';
+    font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    font-size: 15.0237px;
+    line-height: 21px;
 }
 
 /* end section three */
