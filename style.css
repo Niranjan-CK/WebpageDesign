@@ -27,11 +27,11 @@ justify-content: space-between;
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-/* padding: 0px 50px; */
-width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* padding: 0px 50px; */
+    width: 50%;
 
 }
 /* .menus li {
@@ -83,10 +83,10 @@ background-color: #D7F5DC;
 }
 
 .menu_contents_left h1 {
-font-size: 50px;
-font-weight: 700;
-color: #000;
-margin: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    margin: 10px;
 }
 
 .menu_contents_left p {
@@ -103,16 +103,16 @@ margin: 10px;
 }
 
 .menu_contents_left_button {
-border: 1px solid #20B15A;
-padding: 20px 30px;
-font-size: 20px;
-border-radius: 10px;
-background-color: #20B15A;
-color: #fff;
-width: 175px;
-height: 70px;
-clear: both;
-margin: 10px 20px;
+    border: 1px solid #20B15A;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #20B15A;
+    color: #fff;
+    width: 175px;
+    height: 70px;
+    clear: both;
+    margin: 10px 20px;
 }
 .menuText{
     position: relative;
@@ -120,18 +120,18 @@ margin: 10px 20px;
     top: 100px;
 }
 .sponsors{
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     height: 120px;
     
     background-color: #F8FFF9;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
+    /* grid-gap: 20px; */
     padding-left: 2rem;
     clear: both;
     display: flex;
     flex-wrap: wrap;
-    align-items: start;
+    /* align-items: start; */
     justify-content: space-around;
     
 }
@@ -173,7 +173,7 @@ margin: 10px 20px;
     color: #000000;
 }
 .cards{
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(3, 1fr); 
     display: flex;
     flex-wrap: wrap;
@@ -240,7 +240,7 @@ margin: 10px 20px;
     
 }
 .reports{
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding-left: 2rem;
@@ -308,6 +308,7 @@ margin: 10px 20px;
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .article{
     width: 561px;
@@ -346,7 +347,7 @@ margin: 10px 20px;
 }
 .arrowButtons{
     position: relative;
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     font-size: 20px;
@@ -389,11 +390,11 @@ margin: 10px 20px;
 /* customer review */
 .reviewCards{
     align-items: stretch;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
     padding: 20px;
 
 }
@@ -487,7 +488,6 @@ margin: 10px 20px;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
     text-align: center;
     text-transform: capitalize;
 
@@ -519,7 +519,6 @@ margin: 10px 20px;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
     text-align: left;
     text-transform: capitalize;
 
@@ -576,10 +575,10 @@ footer{
 .webLogo p{
     margin-top: 20px;
     font-family: 'Avenir';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
 
 }
 .socialLogo{
@@ -611,7 +610,6 @@ line-height: 27px;
 }
 .copyright{
     margin-top: 4rem;
-  
 
 }
 
