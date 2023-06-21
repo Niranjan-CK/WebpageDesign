@@ -211,10 +211,12 @@ margin: 10px 20px;
     margin:5px;
 }
 .cardTexts p{
+    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    color: #000000;
+    line-height: 25px;
     margin-top: 20px;
 }
 .card:hover{
