@@ -15,7 +15,7 @@ color: #F55F1D;
 
 .navigation {
 display: flex;
-padding: 50px;
+padding: 20px 50px 90px 90px;
 justify-content: space-between;
 }
 
@@ -68,12 +68,12 @@ background-color: #D7F5DC;
 .menu_contents{
     display: flex;
     /* flex-direction: column; */
-    padding-left: 50px;
+    padding-left: 100px;
 }
 
 .menu_contents_right {
-    width: 672px;
-    margin-left: 50px;
+    width: 690px;
+    margin-left: 80px;
     background-color: transparent;
     
 }
@@ -877,6 +877,7 @@ footer{
 .mobileNavigation{
     display:absolute;
     top: 0;
+    
     right: 50%;
     width: 50%;
     height: 100vh;
