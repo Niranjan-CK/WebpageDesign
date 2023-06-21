@@ -67,7 +67,7 @@ background-color: #D7F5DC;
 }
 .menu_contents{
     display: flex;
-    
+    /* flex-direction: column; */
     padding-left: 50px;
 }
 
@@ -120,13 +120,14 @@ margin: 10px 20px;
 }
 .sponsors{
     align-self: flex-end;
-    height: 120px;
+    /* height: 120px; */
+    
     background-color: #fff;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
     padding-left: 2rem;
-
+    clear: both;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
