@@ -398,6 +398,13 @@ margin: 10px 20px;
     padding: 20px;
 
 }
+.comments p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
 .reviewCards::-webkit-scrollbar {
     display: none;
 }
