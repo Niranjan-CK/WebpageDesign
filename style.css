@@ -20,8 +20,10 @@ justify-content: space-between;
 }
 
 .menus {
-display: flex;
-justify-content: space-between;
+display: grid;
+grid-template-columns: repeat(6,1fr);
+grid-gap: 10px;
+/* justify-content: space-between; */
 align-items: center;
 list-style: none;
 width: 50%;
@@ -819,3 +821,8 @@ line-height: 27px;
     height: 14px;
     margin-left: 90px;
 }
+@media screen and (max-width: 1020px) {
+    .menus {
+      display: none;
+    }
+  }
