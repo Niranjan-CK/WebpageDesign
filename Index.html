@@ -35,6 +35,44 @@
                 <li><button class="menus_login">Login</button></li>
                 <li><button class="menus_register">Register</button></li>
             </ul>
+            <ul class="snackbar" >
+                <li onclick="mobileNav()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </li>
+
+                <div class="hidden mobileNavigation" id="mooo">
+                    <div onclick="closeNav()" class="closeNav">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                    <div class="mobNavLinks">
+                        <ul >
+                            <li onclick="dropDown()">Services
+                                <div id="myDropdown" class="dropdown-content">
+                                    <div class="sublink" onclick="SubdropDown()">Link 1</div>
+                                    <div class="sublink">Level 1 item 1</div>
+                                    <div class="sublink">Level 1 item 2</div>
+                                </div>
+                                <div id="submenu" class="subMenu">
+                                    <div class="sublink">Level 1 item 2</div>
+                                    <div class="sublink">Level 1 item 2</div>
+                                    <div class="sublink">Level 1 item 2</div>
+                                </div>
+                            </li>
+                            <li>Portfolio</li>
+                            <li>About Us</li>
+                            <li>Contact Us</li>
+                            <li><button class="menus_login">Login</button></li>
+                            <li><button class="menus_register">Register</button></li>
+                        </ul>
+                    </div>
+                   
+                </div>
+            </ul>
         </nav>
         <menu class="menu_contents">
             <div class="menu_contents_left">
@@ -377,6 +415,11 @@
 
 
     <!-- end of footer -->
+
+
+
+    <!-- mobileView -->
+   
 </body>
 </html>
 <script>
@@ -388,5 +431,18 @@ function sub() {
   var div = document.getElementById("sub");
   div.classList.toggle("hidden");
 }
+function mobileNav(){
+    var div = document.getElementById("mooo");
+    div.classList.toggle("hidden");
+}
+function dropDown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+function SubdropDown() {
+  document.getElementById("submenu").classList.toggle("show1");
+}
 
+function closeNav() {
+  document.getElementById("mooo").classList.toggle("hidden");
+}
 </script>
